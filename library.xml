@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="library.css" type="text/css"?>
+<library>
+    <location>location</location>
+    <description>description</description>
+    <librarian>librarian</librarian>
+    <books>
+        <book title = "">
+            <ISBN>1111</ISBN>
+            <Author>Author name</Author>
+            <preface>preface</preface>
+            <parts>
+                <part title = "">
+                    <chapter title = "">
+                        <summary>summary</summary>
+                        <paragraph no = "">paragraph</paragraph>
+                    </chapter>
+                </part>
+            </parts>
+        </book>
+    </books>
+  
+</library>

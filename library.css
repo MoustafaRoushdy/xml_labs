@@ -1,0 +1,25 @@
+library
+{
+    background-color: blue;
+    width: 100%;
+}
+location, description,librarian
+{
+    display: block;
+    font-size: 30pt;
+    background-color: green;
+}
+
+books
+{
+    display: block;
+    background-color: yellow;
+}
+book 
+{
+    display: block;
+    margin-bottom: 30pt;
+    margin-left: 0pt;
+    color:red;
+    background-color: white;
+}

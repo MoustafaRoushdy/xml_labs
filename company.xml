@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet href="company.css" type="text/css"?>
+
+<company>
+
+    <employee>
+        <name> </name>
+
+        <phones>
+            <phone type = "home"></phone>
+            <phone type = "work"></phone>
+            <phone type = "mobile"></phone>
+        </phones>
+
+        <addresses>
+            <address no = "">
+                <street></street>
+                <building_no></building_no>
+                <region></region>
+                <city></city>
+                <country></country>
+            </address>
+        </addresses>
+
+        <email></email>
+
+    </employee>
+
+</company>

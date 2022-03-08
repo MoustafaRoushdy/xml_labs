@@ -1,0 +1,15 @@
+company
+{
+    background-color: azure;
+}
+library
+{
+  display: block;
+  background-color: aquamarine;
+}
+email,phones,addresses,name
+{
+    display: block;
+    background-color: aqua;
+    font-size: 20pt;
+}
