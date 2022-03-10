@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+         <!-- XML Schema Generated from XML Document on Thu Mar 10 2022 14:26:23 GMT+0200 (Eastern European Standard Time) -->
+         <!-- with XmlGrid.net Free Online Service http://xmlgrid.net -->
+         <xs:element name="company">
+               <xs:complexType>
+                     <xs:sequence>
+                           <xs:element name="employee">
+                                 <xs:complexType>
+                                       <xs:sequence>
+                                             <xs:element name="name"></xs:element>
+                                             <xs:element name="phones">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="phone" maxOccurs="unbounded">
+                                                                     <xs:complexType>
+                                                                           <xs:attribute name="type" type="xs:string"></xs:attribute>
+                                                                     </xs:complexType>
+                                                               </xs:element>
+                                                         </xs:sequence>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                             <xs:element name="addresses">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="address">
+                                                                     <xs:complexType>
+                                                                           <xs:sequence>
+                                                                                 <xs:element name="street"></xs:element>
+                                                                                 <xs:element name="building_no"></xs:element>
+                                                                                 <xs:element name="region"></xs:element>
+                                                                                 <xs:element name="city"></xs:element>
+                                                                                 <xs:element name="country"></xs:element>
+                                                                           </xs:sequence>
+                                                                           <xs:attribute name="no" type="xs:string"></xs:attribute>
+                                                                     </xs:complexType>
+                                                               </xs:element>
+                                                         </xs:sequence>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                             <xs:element name="email"></xs:element>
+                                       </xs:sequence>
+                                 </xs:complexType>
+                           </xs:element>
+                     </xs:sequence>
+               </xs:complexType>
+         </xs:element>
+   </xs:schema>
