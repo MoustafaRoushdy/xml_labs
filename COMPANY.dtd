@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE company [
+    <!ELEMENT company (Employee+)>
+    <!ELEMENT Employee (Name,Email,Phones,Addresses)>
+    <!ELEMENT Name (#PCDATA)>
+    <!ELEMENT Email (#PCDATA)>
+    <!ELEMENT Phones (phone+)>
+    <!ELEMENT Phone (#PCDATA)>
+    <!ELEMENT addresses (address+)>
+    <!ELEMENT address (Street,BuildingNumber,Region,City,Country)>
+    <!ELEMENT Street (#PCDATA)>
+    <!ELEMENT BuildingNumber (#PCDATA)>
+    <!ELEMENT Region (#PCDATA)>
+    <!ELEMENT City (#PCDATA)>
+    <!ELEMENT Country (#PCDATA)>
+
+    <!ATTLIST Phone type (home|work|mobile) #REQUIRED >
+
+    ]>
